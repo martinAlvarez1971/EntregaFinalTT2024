@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () =>
                 <img src="${product.thumbnail}" class="card-img-top pt-0.1" alt="${product.title}" style="height: 200px; object-fit: cover;">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title">${product.title}</h5>
-                  <p class="card-text" style="height:200px;">${product.description}</p>
+                  <p class="card-text" >${product.description}</p>
                   <p class="card-text fw-bold mt-auto" >Precio: $${product.price}</p>
                   <button class="btn btn-success mt-auto">Agregar</button>
                 </div>
