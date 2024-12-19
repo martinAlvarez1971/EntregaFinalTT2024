@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+:root{
+    --color_letra_violeta:rgb(243, 161, 8);
+}
+
+.header_center {
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+  font-size: 80px;
+  color: var(--color_letra_violeta);
+}
+
+footer h5{
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+  font-size: 30px;
+  color: var(--color_letra_violeta);
+}
+
+a{
+  text-decoration: none;
+}
